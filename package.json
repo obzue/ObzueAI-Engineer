@@ -1,0 +1,21 @@
+{
+  "name": "obzueai-engineer",
+  "version": "0.4.0",
+  "description": "ObzueAI Engineer: local reverse-engineering CLI, MCP server, and agent skills.",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "obzueai-engineer": "scripts/cli.mjs",
+    "obzueai-engineer-mcp": "scripts/mcp-server.mjs"
+  },
+  "scripts": {
+    "start": "node scripts/cli.mjs",
+    "mcp": "node scripts/mcp-server.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.1"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
